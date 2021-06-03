@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.navbar {
+    height: 100px;
+}
+
+nav .logo {
+    width: 250px;
+    height: 40px;
+}
+
+nav a {
+    left: 663px;
+    width: 100px;
+    text-align: center;
+    font: normal normal 600 16px/73px PingFang TC;
+    letter-spacing: 0px;
+    color: #3F5D45 !important;
+    opacity: 1;
+}
+
+.section01 {
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-bottom: 60px;
+}
+
+.section01 img {
+    width: 100%;
+}
+
+.section02 {
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.sidebar {
+    width: 30% !important;
+}
+
+.sidebar li {
+    height: 65px;
+    top: 736px;
+    left: 106px;
+    font: normal normal 600 24px/40px PingFang TC;
+    letter-spacing: 0px;
+    opacity: 1;
+    border: 1px solid #EAF0ED;
+    text-align: center;
+    line-height: 65px;
+}
+
+.sidebar li a {
+    color: #3F5D45;
+}
+
+.sidebar li:hover {
+    background: #EAF0ED 0% 0% no-repeat padding-box;
+}
+
+.sidebartitle {
+    top: 656px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 24px;
+    text-align: center;
+    left: 42px;
+    background: #3F5D45 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #fff !important;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item .today {
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 30px;
+    width: 36px;
+    height: 107px;
+    background: #3F5D45 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #fff;
+    padding-left: 5px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.item .heart {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.nameandprice p {
+    top: 984px;
+    left: 395px;
+    /* height: 28px; */
+    text-align: left;
+    font: normal normal 300 20px/20px PingFang TC;
+    letter-spacing: 0px;
+    color: #3F5D45;
+    opacity: 1;
+    line-height: 56px;
+    margin: 0;
+    text-align: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EAF0ED;
+}
+
+button {
+    height: 65px;
+    background: #EAF0ED 0% 0% no-repeat padding-box;
+    border: 1px solid #EAF0ED;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 24px/20px PingFang TC;
+    letter-spacing: 0px;
+    color: #3F5D45;
+    opacity: 1;
+}
+
+.pages {
+    height: 60px;
+    text-align: center;
+    font: normal normal 600 20px/20px PingFang TC;
+    letter-spacing: 0px;
+    color: #EAF0ED;
+    opacity: 1;
+    margin-bottom: 60px;
+    /* border: 1px solid #EAF0ED; */
+}
+
+.pages li {
+    border: 1px solid #EAF0ED;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    font: normal normal 300 20px/20px PingFang TC;
+    opacity: 1;
+    vertical-align: middle;
+}
+
+.pages a {
+    text-align: center;
+    line-height: 60px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font: normal normal 300 20px/20px PingFang TC;
+    letter-spacing: 0px;
+    opacity: 1;
+    display: block;
+}
+
+.pages li a {
+    color: #3F5D45;
+    text-decoration: none;
+}
+
+.pages a:hover {
+    background: #3F5D45 0% 0% no-repeat padding-box;
+    border: 1px solid #3F5D45;
+    opacity: 1;
+    color: #fff;
+}
+
+.logo_sm {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.section03 {
+    height: 116px;
+    background: #3F5D45 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #fff;
+}
+
+.emailinput {
+    width: 336px;
+    background-image: url(./image/mail-24px.png);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    border: 0px;
+}
+
+.emailbutton {
+    width: 64px;
+    height: 56px;
+    background: #FFE180 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 0px;
+}
+
+footer {
+    height: 341px;
+    padding-top: 39px;
+    padding-bottom: 30px;
+    background: #EAF0ED 0% 0% no-repeat padding-box;
+}
+
+.footerlogo {
+    width: 172px;
+    height: 27px;
+}
+
+.footericon img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+footer h3 {
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    color: #3F5D45;
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+footer h3 span {
+    letter-spacing: 0px;
+    font-weight: 300 !important;
+}
+
+footer p {
+    text-align: center;
+    font: normal normal normal 16px/19px Times;
+    letter-spacing: 0px;
+    color: #3F5D45;
+    opacity: 1;
+}
